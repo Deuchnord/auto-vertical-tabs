@@ -1,0 +1,17 @@
+name: Release
+
+on:
+    release:
+      types: [published]
+
+jobs:
+    lint:
+        name: Publish to Mozilla Addons Store
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v7
+            - run: npm install
+            - env:
+                AMO_API_KEY: ${{ secrets.AMO_API_KEY }}
+                AMO_API_SECRET: ${{ AMO_API_SECRET }}
+              run: node_modules/.bin/web-ext sign --api-key="$AMO_API_KEY" --api-secret="$AMO_API_SECRET"
