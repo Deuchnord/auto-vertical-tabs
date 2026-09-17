@@ -1,0 +1,14 @@
+name: Static Analysis
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    lint:
+        name: WebExt Lint
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v7
+            - run: npm install
+            - run: node_modules/.bin/web-ext lint
