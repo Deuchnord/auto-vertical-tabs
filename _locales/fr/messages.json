@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Active automatiquement mes onglets verticaux lorsqu'il y a trop d'onglets ouverts.",
+    "description": "Description of the extension."
+  },
+  "prefMinNbTabsLabel": {
+    "message": "Utiliser des onglets verticaux lorsque le nombre d'onglets dépasse :",
+    "description": "Used in preferences"
+  },
+  "prefApplyButton": {
+    "message": "Appliquer",
+    "description": "Used in preferences"
+  }
+}

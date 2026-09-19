@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Enable vertical tabs automatically when you have too many tabs.",
+    "description": "Description of the extension."
+  },
+  "prefMinNbTabsLabel": {
+    "message": "Switch to vertical tabs when number of tabs exceeds:",
+    "description": "Used in preferences"
+  },
+  "prefApplyButton": {
+    "message": "Apply",
+    "description": "Used in preferences"
+  }
+}

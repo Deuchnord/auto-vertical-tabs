@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Aktiviert automatisch vertikalen Registerkarten, wenn sie zu viele geöffnet sind.",
+    "description": "Description of the extension."
+  },
+  "prefMinNbTabsLabel": {
+    "message": "Zu vertikalen Registerkarten wechseln, wenn die Anzahl der Registerkarten folgende Grenze überschreitet:",
+    "description": "Used in preferences"
+  },
+  "prefApplyButton": {
+    "message": "Anwenden",
+    "description": "Used in preferences"
+  }
+}

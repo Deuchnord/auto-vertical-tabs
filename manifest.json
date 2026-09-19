@@ -2,10 +2,11 @@
   "manifest_version": 3,
   "name": "Auto Vertical Tabs",
   "version": "1.0.0",
-  "license": "GPL-3.0-or-later",
 
-  "description": "Enable vertical tabs automatically when you have too many tabs.",
+  "description": "__MSG_extensionDescription__",
   "homepage_url": "https://github.com/Deuchnord/auto-vertical-tabs",
+
+  "default_locale": "en",
 
   "permissions": [
     "browserSettings",
