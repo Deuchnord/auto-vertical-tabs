@@ -14,4 +14,4 @@ jobs:
             - env:
                 AMO_API_KEY: ${{ secrets.AMO_API_KEY }}
                 AMO_API_SECRET: ${{ AMO_API_SECRET }}
-              run: node_modules/.bin/web-ext sign --api-key="$AMO_API_KEY" --api-secret="$AMO_API_SECRET"
+              run: node_modules/.bin/web-ext sign --api-key="$AMO_API_KEY" --api-secret="$AMO_API_SECRET" --channel=listed --approval-timeout=0
