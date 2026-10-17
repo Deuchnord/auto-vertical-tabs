@@ -19,6 +19,13 @@ Then go to `about:addons`, click on the small gear on top right and "Install Add
 > Installing a non-signed add-on is not possible on the stable version of Firefox.
 > If you really want to do this, either install Firefox Developer Edition or sign the add-on by yourself.
 
+### Permissions
+
+When installing this extension, the following permissions will be required:
+
+- **Read and modify browser settings:** this is needed to switch between horizontal and vertical tabs
+- **Storage:** used to store the plugin configuration
+
 ## Configuration
 
 To configure the add-on, go to `about:addons`, click Auto Vertical Tabs, Preferences tab.
