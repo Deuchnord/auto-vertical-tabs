@@ -1,9 +1,6 @@
 const VERTICAL_TABS_SETTING = browser.browserSettings.verticalTabs;
 const BROWSER_TABS = browser.tabs;
 
-function getMaxTabsBeforeVertical() {
-}
-
 function onTabCountChanged() {
     Promise.all([
         browser.storage.sync.get("minNbTabs"),
